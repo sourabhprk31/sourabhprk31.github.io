@@ -1,0 +1,1039 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "What shall be set?",
+              "id": 301434,
+              "answers": [
+                {
+                  "answer_id": 305319,
+                  "document_id": 499847,
+                  "question_id": 301434,
+                  "text": "Bleed_Air_Valve_Enable_Cmd = DISABLED",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is C1?",
+              "id": 301435,
+              "answers": [
+                {
+                  "answer_id": 298691,
+                  "document_id": 499847,
+                  "question_id": 301435,
+                  "text": "AFCU_State = MAINTENANCE",
+                  "answer_start": 122,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 301436,
+              "answers": [
+                {
+                  "answer_id": 298692,
+                  "document_id": 499847,
+                  "question_id": 301436,
+                  "text": "Bleed_Air_Valve_Cmd_Override = OVERRIDE",
+                  "answer_start": 153,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 301437,
+              "answers": [
+                {
+                  "answer_id": 298693,
+                  "document_id": 499847,
+                  "question_id": 301437,
+                  "text": "Maint_Bleed_Air_Valve_Enabled_Cmd = DISABLED",
+                  "answer_start": 200,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set Bleed_Air_Valve_Enable_Cmd = DISABLED,  if all the following conditions are TRUE \nC1: (AFCU_State = MAINTENANCE)\nC2: (Bleed_Air_Valve_Cmd_Override = OVERRIDE) \nC3: (Maint_Bleed_Air_Valve_Enabled_Cmd = DISABLED)",
+          "document_id": 499847
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304280,
+              "answers": [
+                {
+                  "answer_id": 305316,
+                  "document_id": 501135,
+                  "question_id": 304280,
+                  "text": "VI_Air_Ground_Status",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304281,
+              "answers": [
+                {
+                  "answer_id": 305317,
+                  "document_id": 501135,
+                  "question_id": 304281,
+                  "text": "Air_Ground_1 = NOT ON GROUND",
+                  "answer_start": 71,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304282,
+              "answers": [
+                {
+                  "answer_id": 305318,
+                  "document_id": 501135,
+                  "question_id": 304282,
+                  "text": "Air_Ground_2 = IN AIR)",
+                  "answer_start": 112,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set VI_Air_Ground_Status = AIR, \nC1 is (Air_Ground_1 = NOT ON GROUND) OR \nC2 is (Air_Ground_2 = IN AIR)",
+          "document_id": 501135
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304364,
+              "answers": [
+                {
+                  "answer_id": 305482,
+                  "document_id": 501140,
+                  "question_id": 304364,
+                  "text": "Bleed_Air_Valve_Enable_Cmd = ENABLED",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304365,
+              "answers": [
+                {
+                  "answer_id": 305483,
+                  "document_id": 501140,
+                  "question_id": 304365,
+                  "text": "valve10 = OFF",
+                  "answer_start": 121,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304366,
+              "answers": [
+                {
+                  "answer_id": 305484,
+                  "document_id": 501140,
+                  "question_id": 304366,
+                  "text": "valve11 = Enabled",
+                  "answer_start": 141,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304367,
+              "answers": [
+                {
+                  "answer_id": 305485,
+                  "document_id": 501140,
+                  "question_id": 304367,
+                  "text": "valve3 = disabled",
+                  "answer_start": 166,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set Bleed_Air_Valve_Enable_Cmd = ENABLED,  if all the following conditions are TRUE \nC1: (valve10 = OFF)\nC2: (valve11 = Enabled) \nC3: (valve3 = disabled)",
+          "document_id": 501140
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what is C1?",
+              "id": 304402,
+              "answers": [
+                {
+                  "answer_id": 305520,
+                  "document_id": 501141,
+                  "question_id": 304402,
+                  "text": "valve1 = ON",
+                  "answer_start": 64,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304403,
+              "answers": [
+                {
+                  "answer_id": 305521,
+                  "document_id": 501141,
+                  "question_id": 304403,
+                  "text": "valve2 = OFF",
+                  "answer_start": 88,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what shall be set?",
+              "id": 304368,
+              "answers": [
+                {
+                  "answer_id": 305486,
+                  "document_id": 501141,
+                  "question_id": 304368,
+                  "text": "temparature = false",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set temparature = false, \nC1 is (valve1 = ON) OR \nC2 is (valve2 = OFF)",
+          "document_id": 501141
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304372,
+              "answers": [
+                {
+                  "answer_id": 305490,
+                  "document_id": 501145,
+                  "question_id": 304372,
+                  "text": "bloodAir = ENABLED",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304390,
+              "answers": [
+                {
+                  "answer_id": 305508,
+                  "document_id": 501145,
+                  "question_id": 304390,
+                  "text": "valve1 = OFF",
+                  "answer_start": 103,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304391,
+              "answers": [
+                {
+                  "answer_id": 305509,
+                  "document_id": 501145,
+                  "question_id": 304391,
+                  "text": "valve2 = Enabled",
+                  "answer_start": 122,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304392,
+              "answers": [
+                {
+                  "answer_id": 305510,
+                  "document_id": 501145,
+                  "question_id": 304392,
+                  "text": "valve3 = disabled",
+                  "answer_start": 146,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set bloodAir = ENABLED,  if all the following conditions are TRUE \nC1: (valve1 = OFF)\nC2: (valve2 = Enabled) \nC3: (valve3 = disabled)",
+          "document_id": 501145
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304283,
+              "answers": [
+                {
+                  "answer_id": 305320,
+                  "document_id": 501137,
+                  "question_id": 304283,
+                  "text": "Bleed_Air_Valve_Enable_Cmd = ENABLED",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304284,
+              "answers": [
+                {
+                  "answer_id": 305321,
+                  "document_id": 501137,
+                  "question_id": 304284,
+                  "text": "AFCU_State = MAINTENANCE",
+                  "answer_start": 121,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304285,
+              "answers": [
+                {
+                  "answer_id": 305322,
+                  "document_id": 501137,
+                  "question_id": 304285,
+                  "text": "Bleed_Air_Valve_Cmd_Override = OVERRIDE",
+                  "answer_start": 152,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304286,
+              "answers": [
+                {
+                  "answer_id": 305323,
+                  "document_id": 501137,
+                  "question_id": 304286,
+                  "text": "Maint_Bleed_Air_Valve_Enabled_Cmd = ENABLED",
+                  "answer_start": 199,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set Bleed_Air_Valve_Enable_Cmd = ENABLED,  if all the following conditions are TRUE \nC1: (AFCU_State = MAINTENANCE)\nC2: (Bleed_Air_Valve_Cmd_Override = OVERRIDE) \nC3: (Maint_Bleed_Air_Valve_Enabled_Cmd = ENABLED)",
+          "document_id": 501137
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what is C1?",
+              "id": 304399,
+              "answers": [
+                {
+                  "answer_id": 305517,
+                  "document_id": 501142,
+                  "question_id": 304399,
+                  "text": "AFCU = Enabled",
+                  "answer_start": 104,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304400,
+              "answers": [
+                {
+                  "answer_id": 305518,
+                  "document_id": 501142,
+                  "question_id": 304400,
+                  "text": "(Pump = Disabled",
+                  "answer_start": 124,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304401,
+              "answers": [
+                {
+                  "answer_id": 305519,
+                  "document_id": 501142,
+                  "question_id": 304401,
+                  "text": "valve1= DISABLED",
+                  "answer_start": 148,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what shall be set?",
+              "id": 304369,
+              "answers": [
+                {
+                  "answer_id": 305487,
+                  "document_id": 501142,
+                  "question_id": 304369,
+                  "text": "command1 = DISABLED",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set command1 = DISABLED,  if all the following conditions are TRUE \nC1: (AFCU = Enabled)\nC2: (Pump = Disabled) \nC3: (valve1= DISABLED)",
+          "document_id": 501142
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304373,
+              "answers": [
+                {
+                  "answer_id": 305491,
+                  "document_id": 501146,
+                  "question_id": 304373,
+                  "text": "data10 = ON",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304388,
+              "answers": [
+                {
+                  "answer_id": 305506,
+                  "document_id": 501146,
+                  "question_id": 304388,
+                  "text": "Pressure = test1",
+                  "answer_start": 99,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304389,
+              "answers": [
+                {
+                  "answer_id": 305507,
+                  "document_id": 501146,
+                  "question_id": 304389,
+                  "text": "Tubeone = temp1",
+                  "answer_start": 122,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set data10 = ON, if any of the following conditions are TRUE:\nC1:  (Pressure = test1)\nC2: (Tubeone = temp1)",
+          "document_id": 501146
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304375,
+              "answers": [
+                {
+                  "answer_id": 305493,
+                  "document_id": 501151,
+                  "question_id": 304375,
+                  "text": "Pressure_Indicator",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304381,
+              "answers": [
+                {
+                  "answer_id": 305499,
+                  "document_id": 501151,
+                  "question_id": 304381,
+                  "text": " = WET",
+                  "answer_start": 71,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304382,
+              "answers": [
+                {
+                  "answer_id": 305500,
+                  "document_id": 501151,
+                  "question_id": 304382,
+                  "text": "Switch_1= DRY",
+                  "answer_start": 89,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304383,
+              "answers": [
+                {
+                  "answer_id": 305501,
+                  "document_id": 501151,
+                  "question_id": 304383,
+                  "text": "Switch_2 = WET",
+                  "answer_start": 114,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C4?",
+              "id": 304384,
+              "answers": [
+                {
+                  "answer_id": 305502,
+                  "document_id": 501151,
+                  "question_id": 304384,
+                  "text": "Switch_3 = DRY",
+                  "answer_start": 140,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set Pressure_Indicator = TRUE, if\nC1: (( = WET) AND \nC2: (Switch_1= DRY)) OR\nC3: ((Switch_2 = WET) AND \nC4: (Switch_3 = DRY))",
+          "document_id": 501151
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall  be set?",
+              "id": 304356,
+              "answers": [
+                {
+                  "answer_id": 305474,
+                  "document_id": 501138,
+                  "question_id": 304356,
+                  "text": "FD_LLFS_Rev_Snsr = TRUE",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304357,
+              "answers": [
+                {
+                  "answer_id": 305475,
+                  "document_id": 501138,
+                  "question_id": 304357,
+                  "text": "Upper_Level_Float_Switch = WET",
+                  "answer_start": 69,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304358,
+              "answers": [
+                {
+                  "answer_id": 305476,
+                  "document_id": 501138,
+                  "question_id": 304358,
+                  "text": "Low_Level_Float_Switch_1 = DRY",
+                  "answer_start": 111,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304359,
+              "answers": [
+                {
+                  "answer_id": 305477,
+                  "document_id": 501138,
+                  "question_id": 304359,
+                  "text": "Upper_Level_Float_Switch = WET",
+                  "answer_start": 153,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C4?",
+              "id": 304360,
+              "answers": [
+                {
+                  "answer_id": 305478,
+                  "document_id": 501138,
+                  "question_id": 304360,
+                  "text": "Low_Level_Float_Switch_2 = DRY",
+                  "answer_start": 195,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set FD_LLFS_Rev_Snsr = TRUE, if\nC1: ((Upper_Level_Float_Switch = WET) AND \nC2: (Low_Level_Float_Switch_1 = DRY)) OR\nC3: ((Upper_Level_Float_Switch = WET) AND \nC4: (Low_Level_Float_Switch_2 = DRY))",
+          "document_id": 501138
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304370,
+              "answers": [
+                {
+                  "answer_id": 305488,
+                  "document_id": 501143,
+                  "question_id": 304370,
+                  "text": "Pressure = false",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304397,
+              "answers": [
+                {
+                  "answer_id": 305515,
+                  "document_id": 501143,
+                  "question_id": 304397,
+                  "text": "Valve10 = ON",
+                  "answer_start": 61,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304398,
+              "answers": [
+                {
+                  "answer_id": 305516,
+                  "document_id": 501143,
+                  "question_id": 304398,
+                  "text": "valve20 = OFF",
+                  "answer_start": 86,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set Pressure = false, \nC1 is (Valve10 = ON) OR \nC2 is (valve20 = OFF)",
+          "document_id": 501143
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304374,
+              "answers": [
+                {
+                  "answer_id": 305492,
+                  "document_id": 501147,
+                  "question_id": 304374,
+                  "text": "command1 = DISABLED",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304385,
+              "answers": [
+                {
+                  "answer_id": 305503,
+                  "document_id": 501147,
+                  "question_id": 304385,
+                  "text": "Display1 = Enabled",
+                  "answer_start": 104,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304386,
+              "answers": [
+                {
+                  "answer_id": 305504,
+                  "document_id": 501147,
+                  "question_id": 304386,
+                  "text": "Display2 = Disabled",
+                  "answer_start": 129,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304387,
+              "answers": [
+                {
+                  "answer_id": 305505,
+                  "document_id": 501147,
+                  "question_id": 304387,
+                  "text": "Display3= DISABLED",
+                  "answer_start": 156,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set command1 = DISABLED,  if all the following conditions are TRUE \nC1: (Display1 = Enabled)\nC2: (Display2 = Disabled) \nC3: (Display3= DISABLED)",
+          "document_id": 501147
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304376,
+              "answers": [
+                {
+                  "answer_id": 305494,
+                  "document_id": 501153,
+                  "question_id": 304376,
+                  "text": "Pressure_Indicator = TRUE",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304377,
+              "answers": [
+                {
+                  "answer_id": 305495,
+                  "document_id": 501153,
+                  "question_id": 304377,
+                  "text": "Valve1 = WET",
+                  "answer_start": 71,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304378,
+              "answers": [
+                {
+                  "answer_id": 305496,
+                  "document_id": 501153,
+                  "question_id": 304378,
+                  "text": "Switch_1= DRY",
+                  "answer_start": 95,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304379,
+              "answers": [
+                {
+                  "answer_id": 305497,
+                  "document_id": 501153,
+                  "question_id": 304379,
+                  "text": "Switch_2 = WET",
+                  "answer_start": 120,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C4?",
+              "id": 304380,
+              "answers": [
+                {
+                  "answer_id": 305498,
+                  "document_id": 501153,
+                  "question_id": 304380,
+                  "text": "Switch_3 = DRY",
+                  "answer_start": 146,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set Pressure_Indicator = TRUE, if\nC1: ((Valve1 = WET) AND \nC2: (Switch_1= DRY)) OR\nC3: ((Switch_2 = WET) AND \nC4: (Switch_3 = DRY))",
+          "document_id": 501153
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304361,
+              "answers": [
+                {
+                  "answer_id": 305479,
+                  "document_id": 501139,
+                  "question_id": 304361,
+                  "text": "data1 = ON,",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304362,
+              "answers": [
+                {
+                  "answer_id": 305480,
+                  "document_id": 501139,
+                  "question_id": 304362,
+                  "text": "A_State = test1",
+                  "answer_start": 98,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304363,
+              "answers": [
+                {
+                  "answer_id": 305481,
+                  "document_id": 501139,
+                  "question_id": 304363,
+                  "text": "A_status = temp1",
+                  "answer_start": 120,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set data1 = ON, if any of the following conditions are TRUE:\nC1:  (A_State = test1)\nC2: (A_status = temp1)",
+          "document_id": 501139
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "what shall be set?",
+              "id": 304371,
+              "answers": [
+                {
+                  "answer_id": 305489,
+                  "document_id": 501144,
+                  "question_id": 304371,
+                  "text": "indicatorone = TRUE",
+                  "answer_start": 35,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C1?",
+              "id": 304393,
+              "answers": [
+                {
+                  "answer_id": 305511,
+                  "document_id": 501144,
+                  "question_id": 304393,
+                  "text": "AState = WET",
+                  "answer_start": 65,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C2?",
+              "id": 304394,
+              "answers": [
+                {
+                  "answer_id": 305512,
+                  "document_id": 501144,
+                  "question_id": 304394,
+                  "text": "Switch_1= DRY",
+                  "answer_start": 89,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C3?",
+              "id": 304395,
+              "answers": [
+                {
+                  "answer_id": 305513,
+                  "document_id": 501144,
+                  "question_id": 304395,
+                  "text": "Switch_2 = WET",
+                  "answer_start": 114,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what is C4?",
+              "id": 304396,
+              "answers": [
+                {
+                  "answer_id": 305514,
+                  "document_id": 501144,
+                  "question_id": 304396,
+                  "text": "Switch_3 = DRY",
+                  "answer_start": 140,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "The Operational Software shall set indicatorone = TRUE, if\nC1: ((AState = WET) AND \nC2: (Switch_1= DRY)) OR\nC3: ((Switch_2 = WET) AND \nC4: (Switch_3 = DRY))",
+          "document_id": 501144
+        }
+      ]
+    }
+  ]
+}
