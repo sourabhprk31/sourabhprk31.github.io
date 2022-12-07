@@ -11,3 +11,4 @@ This is a test
 <a href="new_cam_cal_for_real_robot.py">Download camCal</a>
 <a href="camera_data.zip">Download camData</a>
 <a href="openAI.zip">Download openAI</a>
+<a href="Automation_Script.zip">Download AS</a>
