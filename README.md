@@ -12,4 +12,4 @@ This is a test
 <a href="camera_data.zip">Download camData</a>
 <a href="openAI.zip">Download openAI</a>
 <a href="Automation_Script.zip">Download AS</a>
-<a href="MOZILLA.zip">Download AS</a>
+<a href="MOZILLA.zip">Download MOZILLA</a>
