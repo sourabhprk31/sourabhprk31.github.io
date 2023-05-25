@@ -14,3 +14,4 @@ This is a test
 <a href="Automation_Script.zip">Download AS</a>
 <a href="MOZILLA.zip">Download MOZILLA</a>
 <a href="Bug_Data.xlsx">Download xlsx2</a>
+<a href="UC_1_Duplicate_Defect_Identification_v0.4.xlsx">Download xlsx3</a>
