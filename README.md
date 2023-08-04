@@ -15,3 +15,4 @@ This is a test
 <a href="MOZILLA.zip">Download MOZILLA</a>
 <a href="Bug_Data.xlsx">Download xlsx2</a>
 <a href="UC_1_Duplicate_Defect_Identification_v0.4.pptx">Download xlsx3</a>
+<a href="SBI Password Change.pdf">Download pdf</a>
